@@ -1,0 +1,182 @@
+.search_header{
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+#image-header
+{
+ justify-content: flex-end;
+
+}
+
+
+.search_header > a{
+    padding-right: 3rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+
+}
+
+.search_header >a:hover{
+    text-decoration: underline;
+}
+
+.little_logo {
+    display: inline-block;
+    bottom: 0;
+}
+
+.little_img
+{
+    max-height: 40px;
+  
+}
+
+
+
+.image_large
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    width: 100vw;
+    position: relative;
+}
+
+.image_small
+{
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    right: auto;
+}
+
+
+.image_small > p
+{
+    color: #4285f4;
+    position: absolute;
+    bottom: 0;
+    align-self: flex-end;
+
+}
+
+
+.search_bar{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;    
+}
+
+.textbox
+{
+    display: block;
+    width: 16rem;
+    
+}
+
+.textbox:hover
+{    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+
+.searchbutton:hover
+{    border-color: ##3c4043;
+    background-color: #f8f9fa ;
+}
+
+.searchbutton
+{
+    margin-top: 0.5rem;
+    width: 8rem;
+    
+}
+
+.textbox, .searchbutton
+{
+    border-radius: 5px;
+}
+
+
+.adv_title
+{
+    margin: 25px 35px;
+    color: #D93025;
+
+}
+
+h2{
+    margin-left: 10px;
+}
+
+.adv_text_left
+{
+    font-size: 13px;
+    float: left;
+    width: 16%;
+    display: inline-block;
+    min-height: 25px;
+    vertical-align: baseline;
+    height: 42px;
+    width: 30%;
+}
+
+.adv_form
+{
+  margin: 40px 2% 0 45px;
+  
+    
+}
+
+.adv_div
+{
+    clear: both;
+    min-height: 30px;
+
+}
+
+
+
+.adv_text
+{
+    width: 50%;
+    float: left;
+    display: inline-block;
+    min-height: 25px;
+    float: left;
+}
+
+.adv_button{
+    color: #FFFFFF;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    float: right;
+    height: 30px;
+    margin: 10px 0;
+}
+
+
+.adv_button:hover
+{
+    border: 1px solid #2f5bb7;
+    background-color: #357ae8;
+}
+
+*:focus {
+    outline: none;
+}
+
+.textinput:focus{
+    border: 1px solid #4d90fe;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 30%)
+}
+
